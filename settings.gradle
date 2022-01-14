@@ -1,0 +1,2 @@
+rootProject.name = "project_with_a_jump"
+include ':app'

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/chooseTerm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="기간 선택"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            app:backgroundTint="#3F51B5"/>
+
+        <TextView
+            android:id="@+id/term"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:text="선택된 기간 나오는 곳"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChart"
+            android:layout_width="340dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center">
+        </com.github.mikephil.charting.charts.LineChart>
+
+        <Button
+            android:id="@+id/clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="새로 고침"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            app:backgroundTint="#E2E2E2"/>
+    </LinearLayout>
+</ScrollView>

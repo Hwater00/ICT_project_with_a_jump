@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1049854863566",
+    "firebase_url": "https://projectwithajump-default-rtdb.firebaseio.com",
+    "project_id": "projectwithajump",
+    "storage_bucket": "projectwithajump.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049854863566:android:d15fa83d27314de5a5489f",
+        "android_client_info": {
+          "package_name": "org.ict.project_with_a_jump"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049854863566-76tj8ltdcnihqmf0mr4eq0ojov6tgt0t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.ict.project_with_a_jump",
+            "certificate_hash": "89fa9a67a90f58ca905cb1ece582c32dc128d951"
+          }
+        },
+        {
+          "client_id": "1049854863566-ms3dh4rapj0rsgru6srnbse7vg2ki03t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvBElImEuD8MpZ6skzwF8AzaFaTTdlYzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049854863566-ms3dh4rapj0rsgru6srnbse7vg2ki03t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

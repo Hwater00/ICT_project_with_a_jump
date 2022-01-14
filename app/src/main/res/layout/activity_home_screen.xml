@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:textColor="#3F51B5" />
+
+        <TextView
+            android:id="@+id/nowTime1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="현재시간1"
+            android:textSize="27sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp" />
+
+        <TextView
+            android:id="@+id/nowTime2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="현재시간2"
+            android:textSize="27sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/officeHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            android:text="영업시간"
+            android:textSize="27sp" />
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:text="전자출입명부 작성 중?"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="35sp" />
+    </LinearLayout>
+</ScrollView>
